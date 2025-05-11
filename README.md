@@ -15,6 +15,7 @@ This interactive cybersecurity awareness training program is designed to educate
 * **Quiz:** Tests users' knowledge of cybersecurity best practices.
 * **Security Tips:** Offers actionable advice on creating strong passwords, keeping software updated, and securing data backups.
 * **Cybersecurity Info Cards**: Provides information about Phishing Attacks, Multi-Factor Authentication, and Malware Protection.
+* **YouTube Demo Video:** A link to a video demonstrating the training program.
 
 ## Technical Details
 
@@ -31,7 +32,7 @@ This interactive cybersecurity awareness training program is designed to educate
 3.  **Interactive Simulations:**
     * **Spam Detection:** Use the provided tool to analyze email content and identify spam.
     * **Ransomware Demo:** Experience a simulated ransomware attack and learn how to protect yourself.
-    * **Inbox Simulation**: Identify phishing emails.
+     * **Inbox Simulation**: Identify phishing emails.
 4.  **Quiz:** Test your knowledge by taking the cybersecurity quiz.
 
 ## File Structure
@@ -43,3 +44,7 @@ This interactive cybersecurity awareness training program is designed to educate
 ## Customization
 
 The look and feel of the training program can be customized by modifying the CSS in the `<style>` section of the `index.html` file.  Content can be modified by editing the HTML structure and JavaScript files.
+
+## YouTube Demo Video
+
+* [Demo Video](https://youtu.be/l1s8TBDA2eE)  (Replace with the actual link)
