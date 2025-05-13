@@ -1,0 +1,131 @@
+Documentation for Cybersecurity Awareness Training Website
+This document provides an overview of the structure and functionality of the Cybersecurity Awareness Training website.
+
+Purpose
+The website aims to educate users about various cybersecurity threats and best practices to help them protect themselves and their organizations.
+
+Key Features and Sections
+Header:
+
+Displays the Microsoft logo.
+
+Provides a title ("Cybersecurity Awareness Training") and a brief description of the site's purpose.
+
+Login Simulation:
+
+Simulates a login page to educate users about phishing attacks.
+
+Includes fields for email and password, a "Keep me signed in" checkbox, and a "Forgot password?" link.
+
+JavaScript (handlePhishing() function) is used to detect potential phishing attempts based on user input.
+
+Password strength is checked dynamically.
+
+Education Box:
+
+Displays security awareness tips and information after the login simulation.
+
+Provides information on:
+
+Phishing attacks
+
+Multi-factor authentication
+
+Malware protection
+
+Includes a section on essential security practices (strong passwords, regular updates, secure backups).
+
+Offers buttons to navigate to:
+
+Spam detection section
+
+Ransomware demo
+
+Quiz section
+
+Inbox simulation
+
+Inbox Simulation:
+
+Simulates an email inbox to help users identify phishing emails.
+
+Emails are dynamically generated and displayed.
+
+A progress bar tracks the user's progress.
+
+Quiz Section:
+
+Tests the user's cybersecurity knowledge with a multiple-choice quiz.
+
+A form (quizForm) handles the quiz questions and submission.
+
+Spam Checker:
+
+Allows users to analyze email content for spam.
+
+Highlights potential spam indicators in example emails.
+
+Provides tips for detecting spam.
+
+Ransomware Simulation:
+
+Simulates a ransomware attack with a timer.
+
+Educates users about ransomware and how to protect themselves.
+
+Cybersecurity Info Cards:
+
+Displays key cybersecurity concepts with descriptions.
+
+Security Tips:
+
+Provides a list of actionable security tips.
+
+JavaScript Functions
+handlePhishing(event):  Handles the login form submission and checks for potential phishing.
+
+validatePassword(password): Checks the strength of the user's password.
+
+showEducation(): Displays the education box and hides other sections.
+
+showSpamSection(): Displays the spam detection section.
+
+showRansomware(): Displays the ransomware simulation.
+
+showRansomEducation(): show ransomware education.
+
+startRansomTimer(duration): Starts a timer for the ransomware simulation.
+
+showQuiz(): Displays the quiz section.
+
+submitQuiz(event): Handles the quiz submission and calculates the score.
+
+showInbox(): Displays the inbox simulation.
+
+generateEmail(type): Generates a simulated email (phishing or legitimate).
+
+checkSpam(): Analyzes the provided email content for spam indicators.
+
+displayMessage(message): Displays a message in a modal.
+
+closeModal(): Closes the modal.
+
+backToEducationFromQuiz(): Returns to education section from quiz
+
+backToEducationFromInbox(): Returns to education section from inbox
+
+init(): Initializes the application, gets the user's IP address, and sets up event listeners.
+
+UI Elements and Styling
+The website uses a clean and modern design with a blue color scheme.
+
+Custom CSS is used for styling, with variables for colors, fonts, and layout.
+
+Font Awesome icons are used for visual elements.
+
+Responsive design ensures the website works on different screen sizes.
+
+Animations are used for smooth transitions and user experience.
+
+Overall User Experience
+The website provides an interactive and educational experience, simulating real-world cybersecurity scenarios to train users to identify and avoid threats.
