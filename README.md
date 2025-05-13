@@ -52,4 +52,4 @@ The look and feel of the training program can be customized by modifying the CSS
 ## Lab Assignments
 
 - [Aryan's Labs](lab-assignments/Aryan/)
-- [Teammate's Labs](lab-assignments/Teammate/)
+- [Teammate's Labs](lab-assignments/Omkar/)
